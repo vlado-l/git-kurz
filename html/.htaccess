@@ -1,0 +1,6 @@
+Options -Indexes
+
+<Files ~ "\.(env|json|gitignore|lock|example)$">
+  Order allow,deny
+  Deny from all
+</Files>
